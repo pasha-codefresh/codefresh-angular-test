@@ -1,0 +1,8 @@
+version: '1.0'
+
+steps:
+  BuildImage:
+    image_name: alpine
+    description: test
+    commands:
+      - printenv
